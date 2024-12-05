@@ -38,7 +38,7 @@ public class Transaction {
     }
 
     // Display transaction history
-    public static void displayTransactionHistory() {  // Ensure method is static
+    public static void displayTransactionHistory() {  
         if (transactionLog.isEmpty()) {
             System.out.println("No transactions available.");
         } else {
